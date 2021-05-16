@@ -47,9 +47,9 @@
 -- WHERE (regiao = 'Sudeste' OR regiao = 'Nordeste')
 --   AND populacao > 12;
 
-SELECT nome, regiao FROM `estados`
-WHERE regiao IN ('Nordeste', 'Norte');
+-- SELECT nome, regiao FROM `estados`
+-- WHERE regiao IN ('Nordeste', 'Norte');
 
-SELECT nome, regiao FROM `estados`
-WHERE regiao NOT IN ('Nordeste', 'Norte');
+-- SELECT nome, regiao FROM `estados`
+-- WHERE regiao NOT IN ('Nordeste', 'Norte');
 
